@@ -1,0 +1,329 @@
+/* ========= General ========== */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+:root{
+    --primary-font: 'Oleo Script Swash Caps', cursive;
+    --primary-color:#014D4B;
+    --secondary-color:#014d4ab0;
+}
+
+
+/* per-fontan */
+.fs-1{
+    font-size: 1.2rem;
+}
+    .fs-2{
+        font-size: .9rem;
+    }
+.ff-1{
+    font-family: var(--primary-font);
+}
+
+/* per-btnnan */
+.btn-date{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-date:hover{
+  background-color: var(--secondary-color) !important;
+  border-color: antiquewhite !important;
+}
+
+.btn-radius{
+    border-radius: 15px;
+}
+
+
+/* per-ornamenan */
+.section-title img{
+    width: 25%;
+}
+    @media (max-width: 576px){
+        .section-title img{
+            width: 60%;
+        }
+    }
+
+
+/* per-sectionan */
+section{
+    padding-top: 60px;
+}
+
+
+/* ========== Modal ========== */
+#myModal .modal-content{
+    background-image: url(/dist/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border-radius: 25px;
+    color: white;
+    height: 90vh;
+  }
+  
+  #myModal .icon-protokol img{
+    width: 58px;
+    height: 58px;
+    margin: 5px;
+
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+  }
+
+  #myModal .wedding-pt{
+    padding-top: 70px;
+  }
+
+  #myModal .dear-pt{
+    padding-top: 80px;
+    font-size: .8rem;
+  }
+
+    @media (min-width: 576px) and (max-width: 991px) and  (orientation: landscape) { 
+      #myModal .wedding-pt{
+        padding-top: 15px;
+      }
+  
+      #myModal .dear-pt{
+        padding-top:20px;
+        font-size: .8rem;
+      }
+
+      #myModal .modal-content{
+        height: 120vh;
+      }
+
+    }
+
+
+/* ========== End Modal ========== */
+  
+/* ========= Hero ========== */
+#hero{
+    position: relative;
+}
+
+#hero .jumbotron{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(/dist/img/2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: .6px .5px black;
+}
+
+
+/* Countdown */
+#hero .countdown div {
+    text-align: center;
+    margin: 5px;
+    max-width: 100px;
+    padding: 6px 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 6px solid var(--primary-color);
+    border-radius: 25px;
+}
+
+.jumbotron .container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:54%
+}
+
+@media (max-width: 768px) and (orientation: landscape) { 
+    .jumbotron .container{
+        top:25%
+    }
+}
+
+@media (min-width: 768px){
+  #hero .jumbotron{
+    width: 100%;
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-position: center center; 
+  } 
+  
+  #hero .jumbotron{
+    background-image: url(/dist/img/title.JPG);
+  }
+
+  #hero .jumbotron .container{
+    padding-top: 25px;
+  }
+  
+}
+/* ========= End Hero ========== */
+
+/* ========= Couple ========== */
+#couple .couple-body img{
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+/* ========= End Couple ========== */
+
+
+/* ========= Ar-rum ========== */
+#ar-rum {
+  position: relative;
+    background-color: var(--primary-color);
+}
+
+#ar-rum b, #ar-rum p{
+  text-shadow: .8px .4px black;
+}
+
+#ar-rum .batas{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    background-color: white;  
+    
+}
+    /* .bawah{
+        bottom:0;
+        border-radius: 65% 65% 0 0 / 100%;
+        
+    } */
+    .atas{
+        top: 0;
+        border-radius: 0 0 65% 65% / 100%;
+    }
+
+@media (max-width: 767px){
+  #ar-rum .ar-rum-body img{
+    width: 100%;
+  }
+}
+@media (min-width: 768px){
+  #ar-rum .ar-rum-body img{
+    width: 50%;
+  }
+}
+/* ========= End Ar-rum ========== */
+
+/* ========== Event ========== */
+#event{
+    position: relative;
+    background-image: url(/dist/img/3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#event .card{
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+  
+    border-bottom: 8px solid var(--primary-color) !important;
+    border: 1px solid white;
+}
+#event hr{
+  border-top: 1px solid white;
+}
+
+#event .event-body .card{
+    margin-top: 1.2rem;
+}
+
+@media (min-width: 768px){
+  #event{
+    background-image: url(/dist/img/3.jpg);
+    background-position: center;
+    height: 150vh;
+  }
+}
+
+/* ========== End Event ========== */
+
+/* ========== Gallery ========== */
+  .gallery .gallery-item {
+    box-sizing: content-box;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 15px;
+    min-height: 200px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
+  }
+
+  
+  .gallery .owl-nav, .gallery .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .gallery .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important;
+
+    margin-bottom: 30px;
+  }
+  
+  .gallery .owl-dot.active {
+    background-color: var(--primary-color) !important;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery .gallery-item {
+      padding: 30px;
+      margin: 15px;
+    }
+    .gallery .gallery-item .gallery-img {
+      position: static;
+      left: auto;
+    }
+  }
+/* ========== End Gallery ========== */
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999; 
+  }
+
+  /* .btn-info{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    opacity: 90%;
+  } */
+
+  .back-to-top .btn-dark{
+    opacity: 60%;
+  }
+
+
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 10px !important;
+    height: 25px !important;
+  }
+  
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer img{
+    width: 60px;
+    height: 40px;
+}
