@@ -46,7 +46,7 @@
 
       // otomasi audio
       $('#modal-open').click(function() {
-        // musik.play();
+        musik.play();
 
         //Aos Init
         AOS.init();
