@@ -55,7 +55,7 @@ section{
 
 /* ========== Modal ========== */
 #myModal .modal-content{
-    background-image: url(/dist/img/1.jpg);
+    background-image: url(/dist/img/1_new.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,11 +75,11 @@ section{
   }
 
   #myModal .wedding-pt{
-    padding-top: 70px;
+    padding-top: 50px;
   }
 
   #myModal .dear-pt{
-    padding-top: 80px;
+    padding-top: 90px;
     font-size: .8rem;
   }
 
@@ -111,7 +111,7 @@ section{
     width: 100%;
     height: 100vh;
     
-    background-image: url(/dist/img/2.JPG);
+    background-image: url(/dist/img/2_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,7 +214,7 @@ section{
 /* ========== Event ========== */
 #event{
     position: relative;
-    background-image: url(/dist/img/3.jpg);
+    background-image: url(/dist/img/3_new.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -236,7 +236,7 @@ section{
 
 @media (min-width: 768px){
   #event{
-    background-image: url(/dist/img/3.jpg);
+    background-image: url(/dist/img/3_new.jpg);
     background-position: center;
     height: 150vh;
   }
