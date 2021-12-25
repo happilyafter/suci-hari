@@ -79,8 +79,12 @@ section{
   }
 
   #myModal .dear-pt{
-    padding-top: 90px;
+    padding-top: 40px;
     font-size: .8rem;
+  }
+
+  #myModal .ptop{
+    padding-top: 50px;
   }
 
     @media (min-width: 576px) and (max-width: 991px) and  (orientation: landscape) { 
