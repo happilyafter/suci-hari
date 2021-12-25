@@ -84,7 +84,7 @@ section{
   }
 
   #myModal .ptop{
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
     @media (min-width: 576px) and (max-width: 991px) and  (orientation: landscape) { 
