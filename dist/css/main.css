@@ -83,10 +83,6 @@ section{
     font-size: .8rem;
   }
 
-  #myModal .ptop{
-    padding-top: 20px;
-  }
-
     @media (min-width: 576px) and (max-width: 991px) and  (orientation: landscape) { 
       #myModal .wedding-pt{
         padding-top: 15px;
